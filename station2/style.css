@@ -29,14 +29,12 @@ body {
         #4a2635;
 
 
-    background:
-
-        linear-gradient(
-            135deg,
-            #f8c8d8,
-            #f1a8c0
-        );
-
+body {
+    background: linear-gradient(
+        135deg,
+        #f9dce5,
+        #f6bfd1
+    );
 }
 
 

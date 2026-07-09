@@ -717,7 +717,14 @@ body {
 
 @media(min-width:700px){
 
-    #countdown{
+
+    body{
+
+        background:red;
+
+    }
+   
+   #countdown{
 
         display:flex;
 

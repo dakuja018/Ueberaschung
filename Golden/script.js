@@ -327,7 +327,7 @@ if(particleContainer){
 
 
 
-    for(let i=0;i<35;i++){
+    for(let i=0;i<50;i++){
 
 
 
@@ -346,7 +346,9 @@ if(particleContainer){
 
 particle.style.width = size + "px";
 particle.style.height = size + "px";
-
+       
+particle.style.opacity =
+    0.35 + Math.random()*0.65;
 
         particle.style.left =
             Math.random()*100 + "%";

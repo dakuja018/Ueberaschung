@@ -13,7 +13,7 @@ const config = {
 
 
     // Ziel nach Ablauf:
-    nextPage: "./station3/"
+    nextPage: "./Geheimnis/"
 
 
 };

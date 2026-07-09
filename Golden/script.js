@@ -312,18 +312,18 @@ button.addEventListener(
 
 
 /* =====================================================
-   BLÜTEN ERZEUGEN
+   Partikel ERZEUGEN
 ===================================================== */
 
 
-const petalContainer =
+const particleContainer =
     document.getElementById(
-        "petal-container"
+        "particle-container"
     );
 
 
 
-if(petalContainer){
+if(particleContainer){
 
 
 
@@ -331,48 +331,43 @@ if(petalContainer){
 
 
 
-        const petal =
+        const particle =
             document.createElement(
                 "div"
             );
 
 
 
-        petal.className =
-            "petal";
+        particle.className =
+            "particle";
 
 
 
-        petal.innerHTML =
-            "❀";
-
-
-
-        petal.style.left =
+        particle.style.left =
             Math.random()*100 + "%";
 
 
 
-        petal.style.fontSize =
+        particle.style.fontSize =
             (12 + Math.random()*12)
             + "px";
 
 
 
-        petal.style.animationDuration =
+        particle.style.animationDuration =
             (10 + Math.random()*12)
             + "s";
 
 
 
-        petal.style.animationDelay =
+        particle.style.animationDelay =
             (-Math.random()*15)
             + "s";
 
 
 
-        petalContainer.appendChild(
-            petal
+        particleContainer.appendChild(
+            particle
         );
 
 

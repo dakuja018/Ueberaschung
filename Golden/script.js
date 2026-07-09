@@ -327,7 +327,7 @@ if(particleContainer){
 
 
 
-    for(let i=0;i<12;i++){
+    for(let i=0;i<35;i++){
 
 
 
@@ -341,6 +341,11 @@ if(particleContainer){
         particle.className =
             "particle";
 
+
+       const size = 3 + Math.random()*10;
+
+particle.style.width = size + "px";
+particle.style.height = size + "px";
 
 
         particle.style.left =
